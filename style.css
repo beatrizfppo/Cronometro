@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(143, 122, 190);
+}
+
+#display{
+    font-size: 160px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Libre";
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #b3b3b3;
+    font-family: "Chiron";
+    border-radius: 15px;
+}
+
+
