@@ -8,7 +8,6 @@ main {
     background-color: #f6ebff;
     border: 3px solid #010101;
     border-radius: 30px;
-    width: 500px;
     padding: 30px;
 }
 
@@ -25,7 +24,7 @@ h1 {
 body{
     font-family: sans-serif;
     text-align: center;
-    margin-top: 170px;
+    height: 100vh;
     background-color: rgb(143, 122, 190);
     display: flex;
     align-items: center;
@@ -61,4 +60,12 @@ button:hover {
 footer {
     color: #f6ebff;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    h1 {font-size: 44px;}
+    body {gap: 20px;}
+    main {padding: 15px;}
+    #display {font-size: 64px;}
+    button {font-size: 20px;}
 }
