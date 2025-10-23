@@ -4,11 +4,34 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: #f6ebff;
+    border: 3px solid #010101;
+    border-radius: 30px;
+    width: 500px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 68px;
+    color: #f6ebff;
+    text-shadow: 
+        3px 3px 0px #000,   /* direita-baixo  */
+        -3px -3px 0px #000, /* esquerda-cima  */
+        -3px 3px 0px #000,  /* esquerda-baixo */
+        3px -3px 0px #000;  /* direita-cima   */
+} 
+
 body{
     font-family: sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 200px;
     background-color: rgb(143, 122, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 #display{
@@ -28,6 +51,14 @@ button{
     background-color: #b3b3b3;
     font-family: "Chiron";
     border-radius: 15px;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color:  rgb(159, 137, 206);
+}
 
+footer {
+    color: #f6ebff;
+    font-size: 14px;
+}
